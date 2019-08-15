@@ -188,7 +188,7 @@ print(bowTest)
 
 
 from sklearn.neighbors import KNeighborsClassifier
-model=KNeighborsClassifier(n_neighbors=20)
+model=KNeighborsClassifier(n_neighbors=7)
 #print(train.shape,trainlabel.shape)
 model.fit(bowTrain,y_train)
 x=model.predict(bowTest)
